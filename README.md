@@ -1,5 +1,35 @@
 # Assignment-1
-list1=[1,2,3,4]
-list2=[4,5,6,7]
+# list
+list1=[45,879,'phy',True]
+list2=["name",45,False,54]
 print (list1)
-list3=list1.union(list2)
+print (list2)
+print (list1[-1])
+list1.append(78)
+print (list1)
+list1.insert(5,3)
+print (list1)
+list1.remove(3)
+print (list1)
+del list1[-1]
+print (list1)
+
+# dictionary
+dic={
+       "name":" Anand"
+       "pH"   :'xxxxxx'
+       "mail"  :"xxxxx@gmail.com"
+    }
+print (dic)
+dic["name"]="John"
+dic["pH"]=['v','g','c']
+print (dic)
+del dic
+print (dic)
+
+# tuple
+tuple=(33,44,55,"true")
+print (tuple)
+print (len(tuple))
+del tuple
+print (tuple)

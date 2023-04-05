@@ -33,3 +33,18 @@ print (tuple)
 print (len(tuple))
 del tuple
 print (tuple)
+
+# set
+set1={1,2,5,345,98}
+set2={2,45,5,764,34}
+print (set1)
+print (set2)
+set1.add(100)
+print (set1)
+set3=set1.union(set2)
+print (set3)
+set4=set1.interaction(set2)
+print (set4)
+print (set1&set2)
+
+
